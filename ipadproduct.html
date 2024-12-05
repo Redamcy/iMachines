@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="iPad pro">
+    <meta name="keywords" content="Apple, iPad, Device, Technology, Bahrain">
+    <meta name="author" content="iMachines">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>iMachines - iPad</title>
+</head>
+
+<body>
+
+    <header class="primary-header flex">
+
+        <!-- logo -->
+        <div>
+            <img src="images/logo.png" class="logo">
+        </div>
+        <!-- menu button for mobile devices-->
+        <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false"><span
+                class="sr-only">Menu</span></button>
+
+        <!-- Main Navigation -->
+        <nav>
+            <ul id="primary-navigation" data-visible="false" class="primary-navigation flex" role="list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="devices.html">Devices</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <main>
+        <div class="detailMainContainer">
+            <!-- box contain all product elements -->
+            <div class="box">
+
+                <!-- product images container -->
+
+                <div class="images">
+                    <div class="img-holder active">
+                        <img src="images/iPad-frontandback.png" id="image-hide0" alt="iPad">
+                    </div>
+
+                    <div class="img-holder active" id="image-hide1">
+                        <img src="images/iPad-front.png" alt="iPad">
+                    </div>
+
+                    <div class="img-holder active" id="image-hide2">
+                        <img src="images/iPad-side.png" alt="iPad">
+                    </div>
+
+
+                    <div class="img-holder" onclick="imageShow0()">
+                        <img src="images/iPad-frontandback.png" alt="iPad">
+                    </div>
+
+                    <div class="img-holder" onclick="imageShow1()">
+                        <img src="images/iPad-front.png" alt="iPad">
+                    </div>
+
+                    <div class="img-holder" onclick="imageShow2()">
+                        <img src="images/iPad-side.png" alt="iPad">
+                    </div>
+
+                </div>
+
+                <!-- Device name and price -->
+
+                <div class="deviceInfo">
+                    <h1>Ipad</h1>
+                    <span>220 BHD</span>
+
+                    <!-- call to action buttons -->
+
+                    <div class="options">
+                        <a href="buy.html">Buy Now</a>
+                        <a href="cart.html">Add to Cart</a>
+                    </div>
+
+                </div>
+
+                <!-- product description details -->
+
+                <div class="deviceDescription">
+                    <p class="deviceBrief">Powerful. Easy to use. Versatile. iPad is designed for all the things you
+                        love to do. Work, play, create, learn, stay connected, and more. All at an incredible value.
+                    </p>
+
+                    <!-- product features container -->
+
+                    <div class="features">
+
+                        <!-- feature container -->
+
+                        <div class="feature-container">
+                            <h2>Display</h2>
+
+                            <!-- deatils container -->
+
+                            <div class="feature-deatil">
+                                <p>True Tone, and ProMotion. And you can use <br>
+                                    Reference Mode for a more color-accurate workflow.
+                            </div>
+
+                            <!-- deatils container -->
+
+                            <div class="feature-deatil">
+                                <p>To achieve extremely high brightness, we used an array of LEDs across the entire
+                                    back<br>
+                                    of the display. To fit them in the incredibly thin iPad, we used
+                                    custom‑designed<br>
+                                    mini‑LEDs that are 120 times smaller than in previous generations.
+                            </div>
+
+                            <!-- deatils container -->
+
+                            <div class="feature-deatil">
+                                <p>
+                                    With incredible detail and vivid colors, the 10.2‑inch Retina display is perfect
+                                    for<br>
+                                    watching movies, working on a project, or drawing your next masterpiece.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- feature container -->
+
+                        <div class="feature-container">
+                            <h2>Capacity</h2>
+
+                            <!-- deatils container -->
+
+                            <div class="feature-deatil">
+                                <p>128GB</p>
+                            </div>
+
+                            <!-- deatils container -->
+
+                            <div class="feature-deatil">
+                                <p>256BG</p>
+                            </div>
+
+                            <!-- deatils container -->
+
+                            <div class="feature-deatil">
+                                <p>
+                                    512GB
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- feature container -->
+
+                        <div class="feature-container">
+                            <h2>Size and Weight</h2>
+
+                            <!-- deatils container -->
+
+                            <div class="feature-deatil">
+                                <p>Height:
+                                    280.6</p>
+                            </div>
+
+                            <!-- deatils container -->
+
+                            <div class="feature-deatil">
+                                <p>Width:
+                                    214.9</p>
+                            </div>
+
+                            <!-- deatils container -->
+
+                            <div class="feature-deatil">
+                                <p>
+                                    Depth:
+                                    6.4 mm
+                                </p>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <footer>
+
+        <!-- footer container -->
+
+        <section class="productFooter">
+
+            <!-- footer social media icons -->
+
+            <div class="social-footer">
+                <a href="#"><i><img src="images/instagram.png"></i></a>
+                <a href="#"><i><img src="images/snapchat.png"></i></a>
+                <a href="#"><i><img src="images/twitter.png"></i></a>
+                <a href="#"><i><img src="images/whatsapp.png"></i></a>
+            </div>
+
+            <!-- footer navigation -->
+
+            <nav>
+
+
+                <ul class="secondary-navigation" id="secondary-navigation" role="list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="devices.html">Devices</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+
+                <p class="copyright">
+                    iMachines @ 2023
+                </p>
+
+            </nav>
+
+
+        </section>
+
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

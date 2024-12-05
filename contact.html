@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+    <title>Doc</title>
+</head>
+
+<body>
+    <header class="primary-header flex">
+        <div>
+            <img src="images/logo.png" class="logo">
+        </div>
+
+        <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false"><span
+                class="sr-only">Menu</span></button>
+
+        <nav>
+            <ul id="primary-navigation" data-visible="false" class="primary-navigation flex" role="list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="devices.html">Devices</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+
+    <main>
+        <div class="contactHero">
+
+
+            <div class="spacer"></div>
+
+
+            <form id="form" action="/">
+
+                <div class=" input-row">
+
+
+                    <div class="inputGroup">
+                        <input type="text" id="name" placeholder="Your Name">
+                        <label for="name"><i class="form-icon"><img src="images/user.png"></i> Your Name</label>
+                        <div class="error"></div>
+                    </div>
+
+                    <div class="inputGroup">
+                        <input type="text" id="number" placeholder="Phone Number">
+                        <label for="number"><i class="form-icon"><img src="images/phone.png"></i> Phone No.</label>
+                        <div class="error"></div>
+                    </div>
+
+                </div>
+
+
+
+                <div class="inputGroup">
+                    <input type="email" id="email" placeholder="Email Address">
+                    <label for="email"><i class="form-icon"><img src="images/email.png"></i> Email</label>
+                    <div class="error"></div>
+                </div>
+
+                <div class="inputGroup">
+                    <textarea id="message" rows="8" placeholder="Message"></textarea>
+                    <label for="message"><i class="form-icon-message"><img src="images/message.png"></i> Your
+                        Message</label>
+                    <div class="error"></div>
+                </div>
+                <button type="submit">Submit</button>
+
+            </form>
+
+            <div class="spacer"></div>
+
+        </div>
+    </main>
+
+
+    <footer>
+
+        <!-- footer container -->
+
+        <section class="footerContact">
+
+            <!-- footer social media icons -->
+
+            <div class="social-footer">
+                <a href="#"><i><img src="images/instagram.png"></i></a>
+                <a href="#"><i><img src="images/snapchat.png"></i></a>
+                <a href="#"><i><img src="images/twitter.png"></i></a>
+                <a href="#"><i><img src="images/whatsapp.png"></i></a>
+            </div>
+
+            <!-- footer navigation -->
+
+            <nav>
+
+
+                <ul class="secondary-navigation" id="secondary-navigation" role="list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="devices.html">Devices</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+
+                <p class="copyright">
+                    iMachines @ 2023
+                </p>
+
+            </nav>
+
+
+        </section>
+
+    </footer>
+
+
+</body>
+
+</html>
